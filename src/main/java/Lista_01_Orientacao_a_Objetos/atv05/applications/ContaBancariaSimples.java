@@ -43,13 +43,13 @@ public class ContaBancariaSimples {
                 conta.sacar(valor);
 
                 if (conta.saldoSuficiente){
-                    System.out.println("Valor depositado!");
+                    System.out.println("Valor sacado!");
 
                 } else
                     System.out.println("Saldo insuficiente");
 
             } else if (resp.equals("4")) {
-                System.out.println("Fechando o programa.");
+                System.out.println("Fechando o programa...");
 
             } else
                 System.out.println("Digite um valor válido!");
