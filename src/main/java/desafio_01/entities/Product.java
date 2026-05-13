@@ -1,5 +1,7 @@
 package desafio_01.entities;
 
+import javax.swing.*;
+
 public class Product {
     public String name;
     public double price;
@@ -20,7 +22,7 @@ public class Product {
     }
 
     public String showData() {
-        return "Product data: "+name+", $"+price+", "+quantity+" units, Total: "+totalValueInStock();
+        return "Product data: "+name+", $"+price+", "+quantity+" units, Total: $"+totalValueInStock();
     }
 }
 
